@@ -1,0 +1,180 @@
+.row{
+    display: flex;
+}
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins';
+}
+.container{
+    margin: 0 auto;
+    max-width: 1728px;
+    background-color: white;
+}
+/*Navigation*/
+.main-nav .row{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.col-R{
+    margin-right: 30px;
+}
+.main-nav img{
+    margin-left: 30px;
+}
+.col-R ul li{
+    list-style: none;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 30px;
+}
+.col-R ul{
+    display: flex;
+    justify-content: space-around;
+}
+.col-R a{
+    text-decoration: none;
+    align-items: center;
+    color:black;
+}
+/*banner*/
+h2{
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+    top: 25vh;
+    left: 9%;
+}
+.banner{
+    background-image: url(/images/image\ 1.png);
+    height: 90vh;
+    background-size: contain;
+    position: relative;
+}
+.scroll-btn img{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+}
+/*Videos*/
+.col-2{
+    flex-grow: 1;
+    height: 40vh;
+}
+.Z-Fold{
+    background-image: url(/images/image\ 5.png);
+    background-size: contain;
+}
+.Unpacked{
+    background-image: url(/images/image\ 6.png);
+    background-size: cover;
+}
+.videos h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+.Z-Fold h3{
+    margin-left:30px;
+}
+.Unpacked h3{ 
+    text-align: right;
+    margin-right: 30px;
+}
+/*New Products*/
+.active{
+    background-color: darkslateblue;
+}
+.new-products h4{
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    bottom: 100px;
+}
+.hemjee h4{
+    bottom: 80px
+}
+.active h4{
+    color: white;
+}
+.col-4{
+    width: calc(1728px / 4);
+    position: relative;
+}
+.new-products img{
+    width:100% ;
+}
+.bg-grey{
+    background-color: lightgray;
+}
+.new-products h3{ 
+    font-size: 32px;
+    font-weight: 600;
+}
+/*Footer*/
+.footer{
+    border-top: solid;
+    border-color: lightgray;
+    color: grey;
+}
+.grey{
+    color: grey;
+    margin: 35px 0px 90px 30px;
+}
+.grey p{
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+}
+.grey i{
+    margin-left: 40px;
+}
+.links ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.links ul{
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.copyright p{
+    display: inline;
+    margin-left: 30px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 400px;
+
+}
+.copyright{
+    margin-left: 30px;
+}
+.copyright img{
+    height: 13px;
+}
+.links{
+    padding-bottom: 30px;
+    margin-left: 170px;
+}
+
+/*
+Bolovson zuraas hiihgesen ch space ni bolku baiv
+.links li a::after{
+white-space: normal ;}
+
+.links li a::after{
+    content: " |";
+}
+*/
+.links li a{
+    margin-right: 10px;
+}
+
